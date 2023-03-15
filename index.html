@@ -20,16 +20,17 @@
           </svg>
         </a>
         <a href="#">
-          <img
-            src="/google-first-page/assets/mypic.jpeg"
-            alt=""
-            class="user-picture"
-          />
+          <img src="./assets/mypic.jpeg" alt="" class="user-picture" />
         </a>
       </header>
-      <div class="center-page">
+      <!-- <div class="center-page"> -->
+      <form
+        action="https://www.google.com/search"
+        method="get"
+        class="center-page"
+      >
         <img
-          src="/google-first-page/assets/googleLogo.png"
+          src="./assets/googleLogo.png"
           alt="this is google logo"
           width="50%"
         />
@@ -46,7 +47,7 @@
           </svg>
           <input
             type="text"
-            name="searchBox"
+            name="q"
             id="searchBox"
             placeholder="let's have a search"
           />
@@ -99,10 +100,11 @@
           </svg>
         </div>
         <div>
-          <button>Google Search</button>
+          <button type="submit">Google Search</button>
           <button>I'm feeling Lucky</button>
         </div>
-      </div>
+      </form>
+      <!-- </div> -->
       <footer>
         <div class="footer-left">
           <a href="#">About</a>
